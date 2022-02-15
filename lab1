@@ -1,0 +1,44 @@
+//=========================
+//Instructivo de vin 
+//=========================
+
+
+"R" <- es para (para sobre escribir )
+esc <- La tecla esc sirve para salir de modo.
+"i"<-  funciona para escribir insertando.
+"x" >- funciona para borrar  puede combinarse con un número y borrará n caracte res 
+dd<- borra un renglón completo
+":n" ir a línea n 
+":$" ir a la última línea
+Para buscar una palabra en vin , se escribe diagonal, si hay una palabra repeti
+da, se coloca el caracter n para ir al siguiente elemento
+":w" Para duardar un archivo
+":wq" Para guradar y salir 
+"q!" Salir sin realizar cambios
+//=========================
+Lista de compañeros
+//========================
+#Luis 
+#Bosco
+#Pablo
+#Alex
+#Edwin
+#Paola
+#Javier
+#Fernando
+#Alejandra
+#Pablo
+=========================
+
+//===========
+COsas de Git hub 
+
+echo "# Paradigmas-de-programaci-n" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PabloRosas1870/Paradigmas-de-programaci-n.git
+git push -u origin main
+==============
+git remote add origin https://github.com/PabloRosas1870/Paradigmas-de-programaci-n.git
