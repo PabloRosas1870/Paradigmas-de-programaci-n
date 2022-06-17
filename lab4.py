@@ -126,6 +126,31 @@ class Rectangulo (CUadrilatero):
 #=========================
 class Cuadrado(Rectangulo):
     def __init__(self, a):
+        super().__init__(a,a)
+    def area(self):
+        area=self.lado1**2
+        return area
+#def perimetro (self) :
+# p =4.0 * self.lado1
+#print ("perimetro=",p)
+#return p
+
+#======================
+#Crear un cuadrado 
+#=======================
+cuadrado1 = Cuadrado(5)
+
+#===============================================
+#Lllamar al metodo perimetro de su abuelo cuadrilatero 
+#=========================================================
+perimetro1 = cuadrado1.perimetro()
+
+#========================================
+#Llamar a su propio metodo area
+#========================================
+
+area1 = cuadrado1.area()
+print("Perimetro =",perimetro1)
+print ("Area=",area1)
+
 #==============================================================
-#Nos quedamos en el segundo 2:39  debemos continuar el programa 
-#====================================================
